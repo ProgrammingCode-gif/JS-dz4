@@ -8,4 +8,6 @@ if(a>b && b>c || c>b && b>a){
     alert(a + ' - среднее число')
 }else if(a>c && c>b || b>c && c>a){
     alert(c + ' - среднее число')
+}else{
+    alert('Все числа равны')
 }
